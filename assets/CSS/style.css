@@ -19,8 +19,6 @@
 	width:100%;
 }
 
-
-
 .navitem{
 	z-index:3;
 	margin:10px;
@@ -140,12 +138,20 @@ a:hover{
 	width:100%;
 }
 
+/*headings
+**********************************************/
+
 h1, h2{
 	font-family:"Times New Roman", Times, serif;
 }
 
 h1{
 	font-size:60px;
+}
+
+h3{
+	font-size:20px;
+	color:#2B2B2B;
 }
 
 
@@ -192,7 +198,7 @@ h1{
 
 .left-half{
 	display:inline-block;
-	width:40%;
+	width:39%;
 	color:#272822;
 	max-height:500px;
 	padding-left:5%;
@@ -203,8 +209,9 @@ h1{
 .right-half{
 	display:inline-block;
 	width:39%;
+	color:#272822;
 	padding-left:5%;
-	padding-right:5%;
+	padding-right:6%;
 	vertical-align:middle;
 	font:16px Arial, sans-serif;
 	max-height:500px;
@@ -239,7 +246,7 @@ h1{
 
 /*animated arrow bouncing
 **********************************************/
-
+/*adapted from https://codepen.io/dodozhang21/pen/siKtp*/
 
 
 .arrow {

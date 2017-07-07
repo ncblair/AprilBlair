@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	//Smooth anchor link scrolling, taken from the web.
+	//Smooth anchor link scrolling, taken from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll.
 
 	// Add smooth scrolling to all links
   	$("a").on('click', function(event) {
@@ -28,6 +28,9 @@ $(document).ready(function(){
 
 
 
+
+
+  	//parralax effect
 
 	console.log("hello");
 	function moveScroller() {
