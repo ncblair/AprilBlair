@@ -152,6 +152,7 @@ h1{
 h3{
 	font-size:20px;
 	color:#2B2B2B;
+	text-decoration:underline;
 }
 
 
@@ -234,7 +235,7 @@ h3{
 	color:#6A8FA9;
 }
 
-.april{
+.embedded-image{
 	overflow:hidden;
 	height:auto;
 	max-width:100%;
