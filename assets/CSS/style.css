@@ -19,6 +19,8 @@
 	width:100%;
 }
 
+
+
 .navitem{
 	z-index:3;
 	margin:10px;
@@ -91,6 +93,11 @@ a:hover{
     transition: all 0s ease;
 }
 
+
+.link{
+	position:absolute;
+	margin-top:-100px;
+}
 
 
 /*background-image
