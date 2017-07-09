@@ -11,10 +11,8 @@
 
 	z-index:5;
 
-	box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2);
-
 	background-color:rgb(15, 17, 2);
-
+	min-width:857px;
 	height:50px;
 	width:100%;
 }
@@ -29,7 +27,6 @@
 .navcontainer{
 	position:relative;
 	margin:15px auto;
-
 	width:100%;
 }
 
@@ -40,6 +37,7 @@
 	width:60%;
 	height:50px;
 	border-bottom:1px solid #C8C8C8;
+	min-width:514px;
 
 }
 
@@ -108,6 +106,7 @@ a:hover{
 	top:0;
 	height:600px;
 	width:100%;
+	min-width:857px;
 }
 
 .background-image{
@@ -127,7 +126,7 @@ a:hover{
 	
 	color:#C8C8C8;
 
-	min-width:1000px;
+	min-width:857px;
 	margin-top:200px;
 }
 .title-container{
@@ -166,6 +165,7 @@ h3{
 	top:590px;
 	width:100%;
 	color:#0075C1;
+	min-width:857px;
 }
 
 .section1{
