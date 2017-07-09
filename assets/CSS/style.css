@@ -317,6 +317,8 @@ animation-duration:2s;
     	display: none;
 	}
 
+	* {padding:0; margin:0; font:32px Arial, sans-serif;}
+
 
 	/*disable horizontal scrolling
 	**********************************************/
@@ -340,7 +342,7 @@ animation-duration:2s;
 		z-index:5;
 
 		background-color:rgb(15, 17, 2);
-		height:50px;
+		height:300px;
 		width:100%;
 	}
 
@@ -361,8 +363,8 @@ animation-duration:2s;
 		position:fixed;
 		top:0;
 		left:20%;
-		width:60%;
-		height:50px;
+		width:100%;
+		height:300px;
 		border-bottom:1px solid #C8C8C8;
 	}
 }
