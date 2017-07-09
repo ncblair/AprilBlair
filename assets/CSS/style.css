@@ -316,6 +316,55 @@ animation-duration:2s;
 	.desktop {
     	display: none;
 	}
+
+
+	/*disable horizontal scrolling
+	**********************************************/
+
+	html, body {
+  		overflow-x: hidden;
+	}
+	body {
+ 		position: relative
+	}
+
+
+	/*navbar
+	**********************************************/
+
+	.navbar{
+		position:fixed;
+
+		text-align:center;
+
+		z-index:5;
+
+		background-color:rgb(15, 17, 2);
+		height:50px;
+		width:100%;
+	}
+
+	.navitem{
+		z-index:3;
+		margin:10px;
+		margin-right:40px;
+		margin-left:40px;
+	}
+
+	.navcontainer{
+		position:relative;
+		margin:15px auto;
+		width:100%;
+	}
+
+	.underline{
+		position:fixed;
+		top:0;
+		left:20%;
+		width:60%;
+		height:50px;
+		border-bottom:1px solid #C8C8C8;
+	}
 }
 
 
