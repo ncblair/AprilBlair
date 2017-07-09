@@ -302,3 +302,20 @@ animation-duration:2s;
 }
 
 
+/*mobile optimization
+**********************************************/
+.mobile{
+	display:none;
+}
+
+/* if mobile device max width 857px */
+@media only screen and (max-device-width: 857px) {
+    .mobile{
+        display: block;
+    }
+	.desktop {
+    	display: none;
+	}
+}
+
+
