@@ -353,12 +353,6 @@ animation-duration:2s;
 		margin-left:40px;
 	}
 
-	.navcontainer{
-		position:relative;
-		margin:0 auto;
-		width:100%;
-	}
-
 	.underline{
 		position:fixed;
 		top:0;
