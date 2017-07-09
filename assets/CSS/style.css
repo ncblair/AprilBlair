@@ -317,7 +317,7 @@ animation-duration:2s;
     	display: none;
 	}
 
-	* {padding:0; margin:0; font:32px Arial, sans-serif;}
+	* {padding:0; margin:0; font:16px Arial, sans-serif;}
 
 
 	/*disable horizontal scrolling
@@ -349,8 +349,8 @@ animation-duration:2s;
 	.navitem{
 		z-index:3;
 		line-height:120px;
-		margin-right:40px;
-		margin-left:40px;
+		margin-right:10px;
+		margin-left:10px;
 	}
 
 	.underline{
