@@ -11,7 +11,7 @@
 
 	z-index:5;
 
-	background-color:rgb(15, 17, 2);
+	background-color:rgb(138, 171, 222);
 	min-width:857px;
 	height:50px;
 	width:100%;
@@ -36,7 +36,7 @@
 	left:20%;
 	width:60%;
 	height:50px;
-	border-bottom:1px solid #C8C8C8;
+	border-bottom:1px solid white;
 	min-width:514px;
 
 }
@@ -46,7 +46,7 @@
 
 a{
 	text-decoration:none;
-	color:#C8C8C8;
+	color:white;
 }
 
 a:hover{
@@ -114,6 +114,8 @@ a:hover{
 	height:100%;
 	width:100%;
 	margin:0 auto;
+    
+    filter: brightness(1.0)
 }
 
 /*title
@@ -124,7 +126,7 @@ a:hover{
 
 	text-align:center;
 	
-	color:#C8C8C8;
+	color:white;
 
 	min-width:857px;
 	margin-top:200px;
@@ -141,11 +143,15 @@ a:hover{
 **********************************************/
 
 h1, h2{
-	font-family:"Times New Roman", Times, serif;
+	font-family:"Oswald", Times, serif;
 }
 
 h1{
-	font-size:60px;
+	font-size:80px;
+}
+
+h2{
+    font-size:20px;
 }
 
 h3{
@@ -160,7 +166,8 @@ h3{
 
 
 .rest{
-	background-image:url("../img/big_forest_dirt2.jpg");
+	//background-image:url("../img/big_forest_dirt2.jpg");
+    background-color:#FBFCF7;
 	position:absolute;
 	top:590px;
 	width:100%;
@@ -171,7 +178,8 @@ h3{
 .section1{
 	position:relative;
 	text-align:left;
-	background-color:#FBFCF7;
+	background-color:white;
+    //border:1px solid grey;
 	width:70%;
 	height:500px;
 	margin:15%;
@@ -231,8 +239,8 @@ h3{
 	margin-left:5%;
 	margin-top:25px;
 	font-size:30px;
-	font-family:"Times New Roman", Times, serif;
-	color:#6A8FA9;
+	font-family:"Oswald", Times, serif;
+	color:rgb(138, 171, 222);
 }
 
 .embedded-image{
@@ -253,6 +261,7 @@ h3{
 .arrow {
   	left: 50%;
   	transform:translateY(-20px);
+    margin-top:150px;
 }
 
 .bounce {
@@ -261,7 +270,9 @@ h3{
 	-o-animation-name: bounce;
 	animation-name: bounce;
 }
-.animated{-webkit-animation-fill-mode:both;
+.animated{
+    
+    -webkit-animation-fill-mode:both;
 -moz-animation-fill-mode:both;
 -ms-animation-fill-mode:both;
 -o-animation-fill-mode:both;
