@@ -45,15 +45,15 @@ $(document).ready(function(){
     		if (imagetop <= 0){
     			opac = 1;
     			imagetop = 0;
-    			$navbar.css("background-color", "rgba(138, 171, 222, 0)");
+    			$navbar.css("background-color", "rgba(0, 0, 0, 0)");
     			$navunderline.css("opacity", ".5");
     		}
     		else if (imagetop <= 15){
-    			$navbar.css("background-color", "rgba(138,171,222," + imagetop/15 + ")"); 
+    			$navbar.css("background-color", "rgba(0,0,0," + imagetop/15 + ")"); 
     			$navunderline.css("opacity", .5 - imagetop/5);
     		}
     		else {
-    			$navbar.css("background-color", "rgba(138,171,222,1)");
+    			$navbar.css("background-color", "rgba(0,0,0,1)");
     			$navunderline.css("opacity", "0");
     		}
     		if (opac <= 0){
