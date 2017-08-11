@@ -316,6 +316,7 @@ h3{
     height: 100%;
 }
 
+
 .heading{
 	margin-left:15%;
 	margin-top:20px;
@@ -359,7 +360,7 @@ h3{
 	margin-top:25px;
 	font-size:30px;
 	font-family:"Oswald", Times, serif;
-	color:rgb(138, 171, 222);
+	color:#8DA353;
 }
 
 .embedded-image{
