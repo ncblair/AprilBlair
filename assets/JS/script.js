@@ -30,9 +30,7 @@ $(document).ready(function(){
 
 
 
-  	//parralax effect
-
-	console.log("hello");
+  	//Scrolling Effect
 	function moveScroller() {
     	var $image = $(".background-image-container");
     	var $title = $(".title-container");
@@ -59,16 +57,9 @@ $(document).ready(function(){
     		if (opac <= 0){
     			opac = 0;
     		}
-    		$image.css({
-    			top: imagetop + "px"
-    		});
-    		$title.css({
-    			top: imagetop*.6 + "px"
-    		});
     		$title.css({
     			opacity: opac
     		});
-        	console.log("hello");
 		}
 		$(window).scroll(move);
 		move();
