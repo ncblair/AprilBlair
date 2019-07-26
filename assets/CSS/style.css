@@ -350,7 +350,7 @@ animation-duration:2s;
 	}
 
 	.section1{
-		height:1200px;
+		height:550px;
 	}
 	.left-half{
 		width:100%;
@@ -361,9 +361,8 @@ animation-duration:2s;
 	}
 	.embedded-image{
 		overflow:hidden;
-		height:500px;
-		width:500px;
-		text-align:center;
+		height:200px;
+		width:200px;
 	}
 
 
