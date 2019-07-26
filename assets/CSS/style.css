@@ -346,7 +346,7 @@ animation-duration:2s;
 	}
 
 	#about-section {
-		height:1200px;
+		height:1000px;
 	}
 
 	.section1{
@@ -354,6 +354,16 @@ animation-duration:2s;
 	}
 	.left-half{
 		width:100%;
+	}
+
+	.rest{
+		min-width:300px;
+	}
+	.embedded-image{
+		overflow:hidden;
+		height:500px;
+		width:500px;
+		text-align:center;
 	}
 
 
