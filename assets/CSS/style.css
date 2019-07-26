@@ -338,12 +338,12 @@ animation-duration:2s;
 /* if mobile device max width 857px */
 
 @media only screen and (max-device-width: 857px) {
-/*    .mobile{
+    .mobile{
         display: block;
     }
 	.desktop {
     	display: none;
-	}*/
+	}
 
 	#about-section {
 		height:1200px;
