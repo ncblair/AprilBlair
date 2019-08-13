@@ -358,11 +358,11 @@ animation-duration:2s;
 		height:auto !important;        /* for IE as it does not support min-height */
 		height:30px; 
 		min-width:50px;
-		top:50px;
-		bottom:50px;
+
 	}
 	.left-half{
 		width:100%;
+		margin-top:100px;
 	}
 
 	.rest{
@@ -373,9 +373,9 @@ animation-duration:2s;
 		height:200px;
 		width:200px;
 	}
-	.section-title{
+/*	.section-title{
 		bottom:40px;
-	}
+	}*/
 
 
 
