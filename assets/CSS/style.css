@@ -362,7 +362,7 @@ animation-duration:2s;
 	}
 	.left-half{
 		width:100%;
-		margin-top:200px;
+		margin-top:100px;
 	}
 
 	.rest{
@@ -372,6 +372,10 @@ animation-duration:2s;
 		overflow:hidden;
 		height:200px;
 		width:200px;
+	}
+
+	#about-section-left-half{
+		margin-top:200px;
 	}
 
 /*	.section-title{
