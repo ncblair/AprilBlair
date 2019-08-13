@@ -220,7 +220,7 @@ h3{
 	display:inline-block;
 	width:39%;
 	color:#272822;
-	max-height:500px;
+	/*max-height:500px;*/
 	padding-left:5%;
 	padding-right:5%;
 	vertical-align:middle;
