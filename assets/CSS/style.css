@@ -346,9 +346,9 @@ animation-duration:2s;
 	}
 
 	#about-section {
-		height:auto;
+		height:auto+1000;
 		min-height:30px;
-		height:auto+100 !important;        /* for IE as it does not support min-height */
+		height:auto+1000 !important;        /* for IE as it does not support min-height */
 		height:30px; 
 	}
 
@@ -364,11 +364,6 @@ animation-duration:2s;
 	.left-half{
 		width:100%;
 		margin-top:100px;
-
-		min-height:30px;
-		height:auto !important;        /* for IE as it does not support min-height */
-		height:30px; 
-		min-width:50px;
 	}
 
 	.rest{
