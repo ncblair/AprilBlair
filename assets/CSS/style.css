@@ -220,11 +220,12 @@ h3{
 	display:inline-block;
 	width:39%;
 	color:#272822;
-	/*max-height:500px;*/
+	max-height:400px;
 	padding-left:5%;
 	padding-right:5%;
 	vertical-align:middle;
 	font:16px Arial, sans-serif;
+	overflow:auto;
 }
 .right-half{
 	display:inline-block;
@@ -366,6 +367,8 @@ animation-duration:2s;
 		width:100%;
 		margin-top:100px;
 		height:auto;
+		max-height:none;
+		overflow:visible;
 	}
 
 	.rest{
