@@ -364,7 +364,11 @@ animation-duration:2s;
 	.left-half{
 		width:100%;
 		margin-top:100px;
-		overflow:auto;
+
+		min-height:30px;
+		height:auto !important;        /* for IE as it does not support min-height */
+		height:30px; 
+		min-width:50px;
 	}
 
 	.rest{
