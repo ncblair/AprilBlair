@@ -350,7 +350,6 @@ animation-duration:2s;
 		min-height:30px;
 		height:auto !important;        /* for IE as it does not support min-height */
 		height:30px; 
-		min-width:50px;
 	}
 
 	.section1{
@@ -359,6 +358,8 @@ animation-duration:2s;
 		height:auto !important;        /* for IE as it does not support min-height */
 		height:30px; 
 		min-width:50px;
+		margin-top:50px;
+		margin-bottom:50px;
 	}
 	.left-half{
 		width:100%;
@@ -372,6 +373,10 @@ animation-duration:2s;
 		height:200px;
 		width:200px;
 	}
+	.section-title{
+		bottom:40px;
+	}
+
 
 
 
