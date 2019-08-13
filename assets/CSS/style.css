@@ -346,11 +346,14 @@ animation-duration:2s;
 	}
 
 	#about-section {
-		height:700px;
+		height:600px;
 	}
 
 	.section1{
-		height:600px;
+		height:auto;
+		min-height:30px;
+		height:auto !important;        /* for IE as it does not support min-height */
+		height:30px; 
 	}
 	.left-half{
 		width:100%;
