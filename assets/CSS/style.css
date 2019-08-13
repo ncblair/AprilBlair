@@ -358,6 +358,7 @@ animation-duration:2s;
 		height:auto !important;        /* for IE as it does not support min-height */
 		height:30px; 
 		min-width:50px;
+		display:inline-block;
 
 	}
 	.left-half{
