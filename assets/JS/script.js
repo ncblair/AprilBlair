@@ -3,28 +3,31 @@ $(document).ready(function(){
 	//Smooth anchor link scrolling, taken from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll.
 
 	// Add smooth scrolling to all links
-  	$("a").on('click', function(event) {
-  		console.log("click function");
-    	// Make sure this.hash has a value before overriding default behavior
-    	if (this.hash !== "") {
-    		console.log("hash");
-      		// Prevent default anchor click behavior
-      		event.preventDefault();
+    if(!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+	  	$("a").on('click', function(event) {
+	  		console.log("click function");
+	    	// Make sure this.hash has a value before overriding default behavior
+	    	if (this.hash !== "") {
+	    		console.log("hash");
+	      		// Prevent default anchor click behavior
+	      		event.preventDefault();
 
-      		// Store hash
-      		var hash = this.hash;
+	      		// Store hash
+	      		var hash = this.hash;
 
-      		// Using jQuery's animate() method to add smooth page scroll
-      		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      		$('html, body').animate({
-        		scrollTop: $(hash).offset().top
-      		}, 800, function(){
-   
-        		// Add hash (#) to URL when done scrolling (default click behavior)
-        		window.location.hash = hash;
-      		});
-    	} // End if
-  	});
+	      		// Using jQuery's animate() method to add smooth page scroll
+	      		// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      		$('html, body').animate({
+	        		scrollTop: $(hash).offset().top
+	      		}, 800, function(){
+	   
+	        		// Add hash (#) to URL when done scrolling (default click behavior)
+	        		window.location.hash = hash;
+	      		});
+	    	} // End if
+	  	}) //end func
+	  } //end if
+
 
 
 

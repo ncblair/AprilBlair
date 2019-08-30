@@ -39,6 +39,7 @@
 	height:50px;
 	border-bottom:1px solid black;
 	min-width:300px;
+	z-index:-10;
 
 }
 
@@ -392,7 +393,7 @@ animation-duration:2s;
 		z-index:5;
 
 		background-color:white;
-		min-width:400px;
+		min-width:200px;
 		height:50px;
 		width:100%;
 	}
@@ -404,7 +405,7 @@ animation-duration:2s;
 		width:60%;
 		height:50px;
 		border-bottom:1px solid black;
-		min-width:300px;
+		min-width:100px;
 
 	}
 
