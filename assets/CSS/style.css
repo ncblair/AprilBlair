@@ -49,6 +49,7 @@
 a{
 	text-decoration:none;
 	color:black;
+	font-family:serif;
 }
 
 a:hover{
@@ -153,7 +154,7 @@ a:hover{
 **********************************************/
 
 h1, h2{
-	font-family:"Oswald", Times, serif;
+	font-family:serif, "Oswald", Times, serif;
 }
 
 h1{
@@ -225,7 +226,7 @@ h3{
 	padding-left:5%;
 	padding-right:5%;
 	vertical-align:middle;
-	font:16px Arial, sans-serif;
+	font:16px serif, Arial, sans-serif;
 	overflow:auto;
 }
 .right-half{
@@ -235,7 +236,7 @@ h3{
 	padding-left:5%;
 	padding-right:6%;
 	vertical-align:middle;
-	font:16px Arial, sans-serif;
+	font:16px serif, Arial, sans-serif;
 	max-height:500px;
 }
 
