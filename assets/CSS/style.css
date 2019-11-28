@@ -37,7 +37,7 @@
 	left:20%;
 	width:60%;
 	height:50px;
-	border-bottom:1px solid black;
+	border-bottom:2px solid rgb(115, 207, 189);
 	min-width:300px;
 	z-index:-10;
 
@@ -99,7 +99,7 @@ a:hover{
 }
 
 .green{
-	color:blue;
+	color:rgb(67, 96, 180);
 	text-decoration:underline;
 }
 
@@ -192,9 +192,9 @@ h3{
 	text-align:left;
 	background-color:white;
     /*border:1px solid grey;*/
-	width:70%;
+	width:90%;
 	height:600px;
-	margin:15%;
+	margin:5%;
 	margin-top:20px;
 	z-index:2;
 	margin-bottom:75px;
@@ -260,7 +260,7 @@ h3{
 .embedded-image{
 	overflow:hidden;
 	height:auto;
-	max-width:100%;
+	max-width:70%;
 }
 
 
@@ -330,6 +330,16 @@ animation-duration:2s;
 	height:760px;
 }
 
+
+.footer {
+   position: relative;
+   right:10px;
+   bottom: 10px;
+   width: 100%;
+   color: gray;
+   font-size:10px;
+   text-align: right;
+}
 
 /*mobile optimization
 **********************************************/
@@ -418,6 +428,8 @@ animation-duration:2s;
 		min-width:100px;
 
 	}
+
+
 
 
 /*	.section-title{
